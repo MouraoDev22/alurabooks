@@ -8,17 +8,3 @@
 body {
     background-color: var(--cor-de-fundo);
 }
-
-.cabecalho {
-    background-color: var(--cor-branca);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 3% 6%;
-}
-
-.cabecalho__direita-esquerda {
-    display: flex;
-    align-items: center;
-    gap: 1rem;
-}

@@ -1,3 +1,18 @@
+.cabecalho {
+    background-color: var(--cor-branca);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3% 6%;
+    position: relative;
+}
+
+.cabecalho__direita-esquerda {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
 .cabecalho__direita-esquerda__menu-hamburguer {
     width: 24px;
     height: 24px;
@@ -5,4 +20,14 @@
     background-repeat: no-repeat;
     background-position: center;
     display: inline-block;
+}
+
+.cabecalho__direita-esquerda__lista-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+}
+
+.cabecalho__direita-esquerda__menu-hamburguer--input:checked ~ .cabecalho__direita-esquerda__lista-menu {
+    display: block;
 }
