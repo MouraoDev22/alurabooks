@@ -1,0 +1,19 @@
+.banner {
+    background: var(--cor-azul-degrade);
+    padding: 2.5em 2em;
+    color: var(--cor-branca);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.banner__titulo {
+    font-size: 1.125rem;
+    font-weight: 700;
+}
+
+.banner_texto {
+    font-weight: 500;
+}
