@@ -3,14 +3,18 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 3% 6%;
     position: relative;
+    padding: 3% 6%;
 }
 
 .cabecalho__direita-esquerda {
     display: flex;
     align-items: center;
     gap: 1rem;
+}
+
+.cabecalho__direita-esquerda__menu-hamburguer--input {
+    display: none;
 }
 
 .cabecalho__direita-esquerda__menu-hamburguer {
@@ -26,8 +30,29 @@
     display: none;
     position: absolute;
     top: 100%;
+    left: 0;
+    width: 60vw;
 }
 
 .cabecalho__direita-esquerda__menu-hamburguer--input:checked ~ .cabecalho__direita-esquerda__lista-menu {
     display: block;
+    padding: 0 20% 0 0;
+}
+
+.cabecalho__direita-esquerda__lista-menu__titulo, .cabecalho__direita-esquerda__lista-menu__item {
+    padding: 1em;
+    background-color: var(--cor-branca);
+}
+
+.cabecalho__direita-esquerda__lista-menu__titulo {
+    color: var(--cor-laranja);
+    font-weight: 700;
+}
+
+.cabecalho__direita-esquerda__lista-menu__item__link {
+    background: var(--cor-azul-degrade);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-decoration: none;
 }
