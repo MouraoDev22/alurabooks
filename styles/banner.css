@@ -17,3 +17,22 @@
 .banner_texto {
     font-weight: 500;
 }
+
+.banner__campo-busca {
+    color: var(--cor-branca);
+    background-color: transparent;
+    border: 0.125rem solid var(--cor-branca);
+    border-radius: 1.5rem;
+    padding: 1em;
+    width: 100%;
+}
+
+.banner__campo-busca::placeholder {
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    color: var(--cor-branca);
+    font-family: var(--fonte-principal);
+    background: url(../assets/banner/lupa.svg) no-repeat;
+    background-position: 1em;
+}
