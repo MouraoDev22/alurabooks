@@ -19,3 +19,54 @@
 .swiper-button-next, .swiper-button-prev {
     display: none;
 }
+
+.carrossel__card {
+    background-color: var(--cor-branca);
+    border-radius: 0.625rem;
+    margin: 1em;
+    padding: 1em;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.carrossel__card__conteudo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.carrossel__card__conteudo__descricao__titulo {
+    color: var(--cor-laranja);
+    font-weight: 700;
+}
+
+.carrossel__card__conteudo__descricao__titulo-livro {
+    color: var(--cor-azul);
+    font-size: 1.125rem;
+    font-weight: 700;
+    margin: 0.5em 0;
+}
+
+.carrossel__card__conteudo__descricao__texto {
+    font-size: 0.875rem;
+}
+
+.carrossel__card__botoes {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1em;
+}
+
+.carrossel__card__botoes__lista {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+}
+
+.carrossel__card__botoes__saiba-mais {
+    background-color: var(--cor-laranja);
+    color: var(--cor-branca);
+    font-weight: 700;
+    padding: 1em 2.2em;
+    text-decoration: none;
+}
