@@ -73,3 +73,9 @@
     padding: 1em 2.2em;
     text-decoration: none;
 }
+
+@media screen and (min-width: 1024px) {
+    .carrossel__titulo {
+        padding: 2.5em 0 1em 0;
+    }
+}
