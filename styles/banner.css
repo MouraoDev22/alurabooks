@@ -43,6 +43,10 @@
     font-size: 2.25rem;
     }
 
+    .banner__texto {
+        margin: 1.25em 0;
+    }
+
     .banner__campo-busca {
         width: 70%;
     }
