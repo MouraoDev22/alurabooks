@@ -35,12 +35,16 @@
 }
 
 @media screen and (min-width: 1024px) {
+    .banner {
+        padding: 5em 10em;
+    }
+    
     .banner__titulo {
     font-size: 2.25rem;
     }
 
     .banner__campo-busca {
-        width: 50%;
+        width: 70%;
     }
 
     .banner__campo-busca::placeholder {
