@@ -66,6 +66,10 @@
     display: none;
 }
 
+.cabecalho__direita-esquerda__link__texto {
+    display: none;
+}
+
 @media screen and (min-width: 1024px) {
     .cabecalho {
         padding: 1em 4em;
@@ -122,5 +126,25 @@
     .cabecalho__lista__item--input:checked ~ .cabecalho__direita-esquerda__lista-menu {
         display: block;
         width: auto;
+    }
+}
+
+@media screen and (min-width: 1728px) {
+    .cabecalho__lista {
+        margin-right: auto;
+        margin-left: 5em;
+    }
+    
+    .cabecalho__direita-esquerda__link {
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        color: var(--cor-preta);
+        gap: 0.5em;
+    }
+
+    .cabecalho__direita-esquerda__link__texto {
+        display: block;
+        padding-top: 0.2em;
     }
 }
