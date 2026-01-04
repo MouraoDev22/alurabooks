@@ -4,13 +4,13 @@
     justify-content: space-between;
     align-items: center;
     position: relative;
-    padding: 1em 2em;
 }
 
 .cabecalho__direita-esquerda {
     display: flex;
     align-items: center;
     gap: 1rem;
+    margin-right: 1.5em;
 }
 
 .cabecalho__direita-esquerda__menu-hamburguer--input {
@@ -18,12 +18,13 @@
 }
 
 .cabecalho__direita-esquerda__menu-hamburguer {
-    width: 24px;
-    height: 24px;
+    width: 3rem;
+    height: 3rem;
     background-image: url("../assets/header/Menu.svg");
     background-repeat: no-repeat;
     background-position: center;
     display: inline-block;
+    padding: 1em 1em;
 }
 
 .cabecalho__direita-esquerda__lista-menu {
@@ -38,6 +39,14 @@
 .cabecalho__direita-esquerda__menu-hamburguer--input:checked ~ .cabecalho__direita-esquerda__lista-menu {
     display: block;
     padding: 0 20% 0 0;
+}
+
+.cabecalho__direita-esquerda__menu-hamburguer--input:checked ~ .cabecalho__label {
+    background: var(--cor-azul-degrade);
+}
+
+.cabecalho__direita-esquerda__menu-hamburguer--input:checked ~ .cabecalho__label > .cabecalho__direita-esquerda__menu-hamburguer {
+    background-image: url("../assets/header/Menu Aberto.svg");
 }
 
 .cabecalho__direita-esquerda__lista-menu__titulo, .cabecalho__direita-esquerda__lista-menu__item {
@@ -72,7 +81,7 @@
 
 @media screen and (min-width: 1024px) {
     .cabecalho {
-        padding: 1em 4em;
+        padding: 0 2em;
     }
     
     .cabecalho__direita-esquerda__titulo, .cabecalho__direita-esquerda__titulo--negrito {
@@ -99,11 +108,29 @@
         display: flex;
         gap: 2rem;
         align-items: center;
-        padding-top: 0.25em;
+    }
+
+    .cabecalho__lista__item {
+        padding: 2em 1em;
+    }
+
+    .cabecalho__lista__item--input:checked ~ .cabecalho__lista__label>.cabecalho__lista__item {
+        background: var(--cor-azul-degrade);
+        color: var(--cor-branca);
     }
 
     .cabecalho__direita-esquerda__lista-menu {
     left: auto;
+    }
+
+    .cabecalho__direita-esquerda__lista-menu__item:hover {
+        background: var(--cor-azul-degrade);
+        color: var(--cor-branca);
+    }
+
+    .cabecalho__direita-esquerda__lista-menu__item:hover >.cabecalho__direita-esquerda__lista-menu__item__link{
+        -webkit-text-fill-color: var(--cor-branca);
+        text-decoration: none;
     }
 
     .cabecalho__lista__item__link {
