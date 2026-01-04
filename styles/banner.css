@@ -55,3 +55,17 @@
         background-position: 6em;
     }
 }
+
+@media screen and (min-width: 1728px) {
+    .banner {
+        padding: 6em 10em;
+    }
+
+    .banner__campo-busca {
+        width: 40%;
+    }
+
+    .banner__campo-busca::placeholder {
+        background-position: 11em;
+    }
+}
