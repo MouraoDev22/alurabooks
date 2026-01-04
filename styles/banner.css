@@ -25,7 +25,7 @@
 }
 
 .banner__campo-busca::placeholder {
-    font-size: 14px;
+    font-size: 0.875rem;
     font-weight: 400;
     text-align: center;
     color: var(--cor-branca);
@@ -66,6 +66,6 @@
     }
 
     .banner__campo-busca::placeholder {
-        background-position: 11em;
+        background-position: 25%;
     }
 }

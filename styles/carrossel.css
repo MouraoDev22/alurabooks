@@ -104,6 +104,7 @@
         display: flex;
         align-items: center;
         margin: 0 20vw 1em 20vw;
+        padding: 5em 0;
     }
 
     .swiper-pagination {
@@ -111,6 +112,23 @@
     }
 
     .swiper {
-        width: 60%;
+        width: 50%;
+    }
+
+    .carrossel__card {
+        width: 50%;
+        margin-left: 3em;
+    }
+    
+    .carrossel__card__conteudo {
+    gap: 2rem;
+    }
+
+    .carrossel__card__conteudo__descricao__titulo {
+    font-size: 2rem;
+    }
+
+    .carrossel__card__conteudo__descricao__texto {
+    font-size: 1rem;
     }
 }
