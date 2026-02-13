@@ -2,6 +2,8 @@
 
 Projeto de e-commerce fictício desenvolvido durante o curso **HTML e CSS: Responsividade com Mobile First** da Alura.
 
+<img width="100%" height="100%" alt="image" src="https://github.com/user-attachments/assets/b0213f8c-bbf9-42c0-b266-613f1cd8a463" />
+
 ---
 
 ## 🧾 Sobre o projeto
